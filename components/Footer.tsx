@@ -71,7 +71,9 @@ export function Footer() {
         <div className="mt-12 flex flex-col gap-4 border-t border-white/10 pt-6 text-xs text-ink-400 sm:flex-row sm:items-center sm:justify-between">
           <p>© {new Date().getFullYear()} Turnover Cleaning Co. All rights reserved.</p>
           <div className="flex gap-5">
-            <span className="hover:text-white">Privacy</span>
+            <Link href="/privacy" className="hover:text-white">
+              Privacy
+            </Link>
             <Link href="/terms" className="hover:text-white">
               Terms
             </Link>
