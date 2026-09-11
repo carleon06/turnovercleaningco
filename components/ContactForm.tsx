@@ -10,6 +10,8 @@ export function ContactForm() {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [platform, setPlatform] = useState("Airbnb");
+  const [listingLink, setListingLink] = useState("");
+  const [numProperties, setNumProperties] = useState("1");
   const [message, setMessage] = useState("");
   const [sent, setSent] = useState(false);
 
@@ -19,7 +21,7 @@ export function ContactForm() {
       `New quote request from ${name || "website"}`
     );
     const body = encodeURIComponent(
-      `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nPlatform: ${platform}\n\n${message}`
+      `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nPlatform: ${platform}\nListing link: ${listingLink || "—"}\nProperties: ${numProperties}\n\n${message}`
     );
     window.location.href = `mailto:${CONTACT_EMAIL}?subject=${subject}&body=${body}`;
     setSent(true);
@@ -79,7 +81,10 @@ export function ContactForm() {
         <label className="flex flex-col gap-1.5">
           <span className="text-sm font-medium text-ink-800">Phone</span>
           <input
+            required
             type="tel"
+            pattern="[0-9()+\-\s]{7,}"
+            title="Enter a valid phone number"
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
             className="rounded-xl border border-ink-200 px-3.5 py-2.5 text-sm text-ink-900 focus:border-brass-400 focus:outline-none"
@@ -100,12 +105,37 @@ export function ContactForm() {
             ))}
           </select>
         </label>
+        <label className="flex flex-col gap-1.5">
+          <span className="text-sm font-medium text-ink-800">
+            Listing link <span className="text-ink-400 font-normal">(optional)</span>
+          </span>
+          <input
+            type="url"
+            value={listingLink}
+            onChange={(e) => setListingLink(e.target.value)}
+            className="rounded-xl border border-ink-200 px-3.5 py-2.5 text-sm text-ink-900 focus:border-brass-400 focus:outline-none"
+            placeholder="https://airbnb.com/rooms/..."
+          />
+        </label>
+        <label className="flex flex-col gap-1.5">
+          <span className="text-sm font-medium text-ink-800">How many properties?</span>
+          <select
+            value={numProperties}
+            onChange={(e) => setNumProperties(e.target.value)}
+            className="rounded-xl border border-ink-200 px-3.5 py-2.5 text-sm text-ink-900 focus:border-brass-400 focus:outline-none"
+          >
+            {["1", "2", "3", "4", "5+"].map((n) => (
+              <option key={n} value={n}>
+                {n}
+              </option>
+            ))}
+          </select>
+        </label>
         <label className="flex flex-col gap-1.5 sm:col-span-2">
           <span className="text-sm font-medium text-ink-800">
-            Tell us about your property
+            Tell us about your property <span className="text-ink-400 font-normal">(optional)</span>
           </span>
           <textarea
-            required
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             rows={4}
