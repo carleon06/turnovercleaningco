@@ -3,21 +3,12 @@ import { Icon } from "./Icon";
 import { PalmMark } from "./PalmMark";
 import { Wordmark } from "./Wordmark";
 
-const services = [
-  "Turnover Cleaning",
-  "Co-Hosting Support",
-  "Inventory & Supply Management",
-  "Photo & Video Documentation",
-  "Custom Checklists",
-  "Automated Scheduling & Billing",
-];
-
 export function Footer() {
   return (
     <footer className="border-t border-ink-100 bg-ink-900 text-ink-200">
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
-        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-          <div className="lg:col-span-2">
+        <div className="grid gap-10 sm:grid-cols-2">
+          <div>
             <div className="flex items-center gap-3">
               <PalmMark className="size-12" />
               <Wordmark
@@ -31,15 +22,6 @@ export function Footer() {
               rentals, run by hosts, for hosts. 10+ years of hospitality
               experience behind every clean.
             </p>
-          </div>
-
-          <div>
-            <h3 className="text-sm font-semibold text-white">Services</h3>
-            <ul className="mt-4 space-y-2.5 text-sm text-ink-300">
-              {services.map((s) => (
-                <li key={s}>{s}</li>
-              ))}
-            </ul>
           </div>
 
           <div>
