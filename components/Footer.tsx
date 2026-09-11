@@ -72,7 +72,9 @@ export function Footer() {
           <p>© {new Date().getFullYear()} Turnover Cleaning Co. All rights reserved.</p>
           <div className="flex gap-5">
             <span className="hover:text-white">Privacy</span>
-            <span className="hover:text-white">Terms</span>
+            <Link href="/terms" className="hover:text-white">
+              Terms
+            </Link>
             <Link href="/disclaimer" className="hover:text-white">
               Disclaimer
             </Link>
