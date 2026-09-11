@@ -6,7 +6,7 @@ import { Wordmark } from "./Wordmark";
 export function Footer() {
   return (
     <footer className="border-t border-white/10 bg-[#1f5f5a] text-ink-200">
-      <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 py-9 sm:px-6 lg:px-8">
         <div className="grid gap-10 sm:grid-cols-2">
           <div>
             <div className="flex items-center gap-3">
@@ -50,7 +50,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 flex flex-col gap-4 border-t border-white/10 pt-6 text-xs text-ink-400 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-8 flex flex-col gap-4 border-t border-white/10 pt-5 text-xs text-ink-400 sm:flex-row sm:items-center sm:justify-between">
           <p>© {new Date().getFullYear()} Turnover Cleaning Co. All rights reserved.</p>
           <div className="flex gap-5">
             <Link href="/privacy" className="hover:text-white">
