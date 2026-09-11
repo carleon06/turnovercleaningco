@@ -24,7 +24,7 @@ export function Hero() {
           </h1>
 
           <p className="mt-5 max-w-lg text-lg leading-7 text-ink-500">
-            We&apos;re hosts too — and co-host — so we know exactly what
+            We&apos;re hosts too, and co-host, so we know exactly what
             keeps a listing at 5 stars. Full-service turnover cleaning,
             restocking, and property care, documented start to finish.
           </p>

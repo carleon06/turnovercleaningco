@@ -27,7 +27,7 @@ export function Footer() {
             </div>
             <p className="mt-4 max-w-sm text-sm leading-6 text-ink-300">
               White-glove, top-to-bottom turnover cleaning for short-term
-              rentals — run by hosts, for hosts. 10+ years of hospitality
+              rentals, run by hosts, for hosts. 10+ years of hospitality
               experience behind every clean.
             </p>
           </div>

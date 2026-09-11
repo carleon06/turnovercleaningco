@@ -6,11 +6,11 @@ import { Icon } from "./Icon";
 const faqs = [
   {
     q: "Do you only do cleaning, or can you help with hosting too?",
-    a: "Both. Turnover cleaning is our core service, but if you want help with guest messaging, check-in coordination, or day-to-day issue resolution, we offer co-hosting support as well — you can add it whenever you're ready.",
+    a: "Both. Turnover cleaning is our core service, but if you want help with guest messaging, check-in coordination, or day-to-day issue resolution, we offer co-hosting support as well. You can add it whenever you're ready.",
   },
   {
     q: "How does scheduling actually work?",
-    a: "You connect your booking calendar (Airbnb, VRBO, or your PMS) once. Every checkout automatically schedules the next turnover on our end — no back-and-forth texting to coordinate cleanings.",
+    a: "You connect your booking calendar (Airbnb, VRBO, or your PMS) once. Every checkout automatically schedules the next turnover on our end, no back-and-forth texting to coordinate cleanings.",
   },
   {
     q: "What's included in supply restocking?",
@@ -18,15 +18,15 @@ const faqs = [
   },
   {
     q: "How do I know a clean actually happened before my next guest checks in?",
-    a: "You get a time-stamped set of room-by-room photos and a walkthrough video sent to your inbox the moment the turnover is complete — not a generic \"job done\" text.",
+    a: "You get a time-stamped set of room-by-room photos and a walkthrough video sent to your inbox the moment the turnover is complete, not a generic \"job done\" text.",
   },
   {
     q: "How is billing handled?",
-    a: "Billing is automated per completed turnover — no manual invoices to approve or chase down each month.",
+    a: "Billing is automated per completed turnover, no manual invoices to approve or chase down each month.",
   },
   {
     q: "What areas do you serve?",
-    a: "We're based in Miami and serve South Florida — reach out with your property location and we'll confirm coverage for your listing.",
+    a: "We're based in Miami and serve South Florida. Reach out with your property location and we'll confirm coverage for your listing.",
   },
 ];
 

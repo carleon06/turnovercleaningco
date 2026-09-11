@@ -4,12 +4,12 @@ const services = [
   {
     icon: "sparkles" as const,
     title: "Turnover Cleaning",
-    text: "A true top-to-bottom clean between every guest — kitchens, bathrooms, linens, and the details automated cleaners skip.",
+    text: "A true top-to-bottom clean between every guest: kitchens, bathrooms, linens, and the details automated cleaners skip.",
   },
   {
     icon: "users" as const,
     title: "Co-Hosting Support",
-    text: "Guest messaging, check-in coordination, and issue resolution — we can run the day-to-day so you don't have to.",
+    text: "Guest messaging, check-in coordination, and issue resolution: we can run the day-to-day so you don't have to.",
   },
   {
     icon: "package" as const,
@@ -19,17 +19,17 @@ const services = [
   {
     icon: "camera" as const,
     title: "Photo & Video Documentation",
-    text: "Time-stamped photos and a walkthrough video before and after every clean — proof of condition, every time.",
+    text: "Time-stamped photos and a walkthrough video before and after every clean: proof of condition, every time.",
   },
   {
     icon: "clipboard-check" as const,
     title: "Custom Checklists",
-    text: "Every listing gets a checklist built around your specific decor and staging — styled exactly the way you want it presented.",
+    text: "Every listing gets a checklist built around your specific decor and staging, styled exactly the way you want it presented.",
   },
   {
     icon: "credit-card" as const,
     title: "Automated Scheduling & Billing",
-    text: "Cleanings trigger automatically off your booking calendar, and billing runs on autopilot — no chasing invoices.",
+    text: "Cleanings trigger automatically off your booking calendar, and billing runs on autopilot, no chasing invoices.",
   },
 ];
 
@@ -45,7 +45,7 @@ export function Services() {
             Everything a listing needs, one call
           </h2>
           <p className="mt-3 text-ink-500">
-            Cleaning is the floor, not the ceiling — most hosts stack on
+            Cleaning is the floor, not the ceiling. Most hosts stack on
             co-hosting and supply management once they see how the
             documentation works.
           </p>

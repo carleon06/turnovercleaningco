@@ -21,7 +21,7 @@ export function ContactForm() {
       `New quote request from ${name || "website"}`
     );
     const body = encodeURIComponent(
-      `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nPlatform: ${platform}\nListing link: ${listingLink || "—"}\nProperties: ${numProperties}\n\n${message}`
+      `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nPlatform: ${platform}\nListing link: ${listingLink || "(none)"}\nProperties: ${numProperties}\n\n${message}`
     );
     window.location.href = `mailto:${CONTACT_EMAIL}?subject=${subject}&body=${body}`;
     setSent(true);

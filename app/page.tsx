@@ -29,7 +29,7 @@ export default function Home() {
               Ready to stop worrying about turnovers?
             </h2>
             <p className="mx-auto mt-3 max-w-md text-ink-500">
-              Tell us about your listing and we&apos;ll put a plan together —
+              Tell us about your listing and we&apos;ll put a plan together:
               cleaning, restocking, and documentation, all handled.
             </p>
             <a

@@ -15,7 +15,7 @@ export function ContactSection() {
             </h2>
             <p className="mt-3 max-w-md text-ink-500">
               Send us a few details and we&apos;ll put together pricing based
-              on your property size and turnover frequency — usually within
+              on your property size and turnover frequency, usually within
               one business day.
             </p>
 

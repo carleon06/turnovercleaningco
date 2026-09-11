@@ -4,7 +4,7 @@
   --background: #ffffff;
   --foreground: #17181a;
 
-  /* Ink — near-black text, headings */
+  /* Ink: near-black text, headings */
   --color-ink-50: #f7f7f7;
   --color-ink-100: #eeeeee;
   --color-ink-200: #d9d9da;
@@ -16,7 +16,7 @@
   --color-ink-800: #202124;
   --color-ink-900: #131417;
 
-  /* Brass — the single premium accent (white-glove / concierge feel) */
+  /* Brass: the single premium accent (white-glove / concierge feel) */
   --color-brass-50: #faf6ee;
   --color-brass-100: #f1e6d0;
   --color-brass-200: #e2cca1;
@@ -26,7 +26,7 @@
   --color-brass-600: #8a6531;
   --color-brass-700: #6d4f27;
 
-  /* Mist — cool neutral surfaces */
+  /* Mist: cool neutral surfaces */
   --color-mist-50: #fafbfb;
   --color-mist-100: #f2f4f5;
   --color-mist-200: #e6e9eb;

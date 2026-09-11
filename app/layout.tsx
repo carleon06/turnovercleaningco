@@ -16,7 +16,7 @@ const display = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Turnover Cleaning Co. — Miami Airbnb Turnover Cleaning",
+  title: "Turnover Cleaning Co. | Miami Airbnb Turnover Cleaning",
   description:
     "Host-operated, top-to-bottom turnover cleaning and co-hosting support for Miami & South Florida short-term rentals. Photo-verified cleans, custom checklists, and automated scheduling that keep you at 5 stars.",
 };

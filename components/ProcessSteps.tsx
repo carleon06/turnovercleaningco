@@ -4,17 +4,17 @@ const steps = [
   {
     icon: "calendar" as const,
     title: "Your calendar triggers the clean",
-    text: "Connect your Airbnb, VRBO, or PMS calendar once. Every checkout automatically schedules the next turnover — no texting back and forth.",
+    text: "Connect your Airbnb, VRBO, or PMS calendar once. Every checkout automatically schedules the next turnover, no texting back and forth.",
   },
   {
     icon: "clipboard-check" as const,
     title: "We clean to your checklist",
-    text: "A checklist built around your specific decor and staging, plus a full restock of supplies — every time, not just when someone remembers.",
+    text: "A checklist built around your specific decor and staging, plus a full restock of supplies, every time, not just when someone remembers.",
   },
   {
     icon: "camera" as const,
     title: "You get time-stamped proof",
-    text: "Photos and a walkthrough video land in your inbox before your next guest ever checks in — no guessing whether it's ready.",
+    text: "Photos and a walkthrough video land in your inbox before your next guest ever checks in, no guessing whether it's ready.",
   },
   {
     icon: "credit-card" as const,

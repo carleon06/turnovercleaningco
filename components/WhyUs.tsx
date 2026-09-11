@@ -5,7 +5,7 @@ const points = [
   {
     icon: "home" as const,
     title: "We host, ourselves",
-    text: "We manage our own short-term rentals — so every checklist is built from what actually gets a listing dinged in reviews, not a generic template.",
+    text: "We manage our own short-term rentals, so every checklist is built from what actually gets a listing dinged in reviews, not a generic template.",
   },
   {
     icon: "key" as const,
@@ -15,7 +15,7 @@ const points = [
   {
     icon: "star" as const,
     title: "10+ years in hospitality",
-    text: "A decade-plus of turnovers, tight check-in windows, and last-minute guest issues — nothing about a same-day turn rattles us.",
+    text: "A decade-plus of turnovers, tight check-in windows, and last-minute guest issues: nothing about a same-day turn rattles us.",
   },
 ];
 

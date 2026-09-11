@@ -29,7 +29,7 @@ export function DocumentationShowcase() {
               Here&apos;s what lands in your inbox after every clean
             </h2>
             <p className="mt-3 max-w-md text-ink-500">
-              A sample of the report format — room-by-room photos, a
+              A sample of the report format: room-by-room photos, a
               timestamp, and a short walkthrough video, so you never have to
               wonder if a turnover actually happened before your next
               guest arrives.
@@ -54,7 +54,7 @@ export function DocumentationShowcase() {
             <div className="flex items-center justify-between border-b border-ink-100 pb-4">
               <div>
                 <p className="text-xs font-semibold uppercase tracking-wide text-ink-400">
-                  Turnover report — sample
+                  Turnover report sample
                 </p>
                 <p className="mt-0.5 font-display text-base font-semibold text-ink-900">
                   Unit 204 · Completed 11:42 AM
