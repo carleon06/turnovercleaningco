@@ -12,7 +12,7 @@ export function Wordmark({
   return (
     <div className="flex flex-col">
       <span
-        className={`font-display font-semibold uppercase leading-[1.15] tracking-wide ${size} ${textClassName}`}
+        className={`font-display font-normal uppercase leading-[1.15] tracking-wide ${size} ${textClassName}`}
       >
         Turnover
         <br />
