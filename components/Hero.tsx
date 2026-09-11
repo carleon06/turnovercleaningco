@@ -20,7 +20,7 @@ export function Hero() {
           <h1 className="mt-5 font-display text-4xl leading-[1.1] text-ink-900 sm:text-5xl lg:text-[3.4rem]">
             Top to bottom. Every turn.
             <br />
-            <span className="text-brass-500">No worry, no headache.</span>
+            <span className="text-brass-500">Pure peace of mind.</span>
           </h1>
 
           <p className="mt-5 max-w-lg text-lg leading-7 text-ink-500">
