@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Icon } from "./Icon";
 import { PalmMark } from "./PalmMark";
 import { Wordmark } from "./Wordmark";
@@ -72,6 +73,9 @@ export function Footer() {
           <div className="flex gap-5">
             <span className="hover:text-white">Privacy</span>
             <span className="hover:text-white">Terms</span>
+            <Link href="/disclaimer" className="hover:text-white">
+              Disclaimer
+            </Link>
           </div>
         </div>
       </div>
